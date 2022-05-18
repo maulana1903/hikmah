@@ -1,0 +1,73 @@
+body {
+  background: #000;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h2 {
+  color: #fff;
+}
+
+.login {
+  padding: 1em;
+  margin: 2em auto;
+  width: 21em;
+  bakground: #fff;
+  bocrder-radius: 3px;
+}
+.label{
+  height: 38;
+}
+label {
+  font-size: 10pt;
+  color: #555;
+}
+.text{
+  font-size: 10pt;
+  text-align: right;
+  margin-top: 28px;
+  margin-right: 6px ;
+}
+.f {
+  float: right;
+}
+.fcenter {
+  float: center;
+}
+.fc{
+  float: center;
+  text-align: center;
+  font-size: 8pt;
+}
+.m{
+    margin-top: 20px;
+}
+.fl{
+  float: center;
+  text-align: left;
+}
+input[type="text"],
+input[type="password"],
+textarea {
+  padding: 2px;
+  width: 95%;
+  background: #efefef;
+  border: 0;
+  font-size: 10pt;
+  margin: 6px 0px;
+}
+
+.tombol {
+  background: #3498db;
+  color: #fff;
+  border: 0;
+  padding: 5px 8px;
+  margin: 20px 0px;
+}
+.tombol1 {
+  background: #07D607;
+  color: #fff;
+  border: 0;
+  padding: 5px 8px;
+  margin: 20px 30px;
+}
