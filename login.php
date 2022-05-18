@@ -3,23 +3,15 @@
 session_start();
 
 // menghubungkan dengan koneksi
-include 'config.php';
 
 // menangkap data yang dikirim dari form
-$username = $_POST['username'];
-$password = md5($_POST['password']);
+$nama = $_POST['username'];
 
 // menyeleksi data admin dengan username dan password yang sesuai
-$data = mysqli_query($conn,"select * from users where username='$username' and password='$password'");
 
-// menghitung jumlah data yang ditemukan
-$cek = mysqli_num_rows($data);
-
-if($cek > 0){
+if($nama =="Hikmah Nur Hidayah"){
 	$_SESSION['username'] = $username;
 	$_SESSION['status'] = "login";
-	header("location:admin/index.php");
 }else{
-	header("location:index.php?pesan=gagal");
 }
 ?>
