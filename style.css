@@ -33,6 +33,7 @@ label {
 }
 .fcenter {
   float: center;
+  text-align: center;
 }
 .fc{
   float: center;
